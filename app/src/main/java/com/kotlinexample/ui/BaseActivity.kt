@@ -15,7 +15,7 @@ open class BaseActivity : AppCompatActivity() {
 
     fun showToast(message: String){
         Toast.makeText(this,message, Toast.LENGTH_SHORT).show()
-
     }
+
 
 }
